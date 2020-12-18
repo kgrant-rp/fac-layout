@@ -5,30 +5,38 @@
 @import './scss/variables.scss';
 
 // Components
+@import './scss/components/hero.scss';
 @import './scss/components/plan-cards.scss';
+@import './scss/components/sales-banner.scss';
+@import './scss/components/details-panel.scss';
+@import './scss/components/progress-bar.scss';
 
 // Partials
 @import './scss/mainheader.scss';
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 a {
-  color: $blue;
+	color: $blue;
 
-  &:hover {
-    color: $blueHover;
-  }
+	&:hover {
+		color: $blueHover;
+	}
+}
+
+ul {
+	list-style: none;
 }
 
 footer {
-  background: whitesmoke;
-  padding: .5rem 0;
+	background: whitesmoke;
+	padding: .5rem 0;
 }

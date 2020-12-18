@@ -1,42 +1,49 @@
 #plan-cards {
-    padding: 4rem 0;
+	padding: 8rem 0;
 
-    .plan-card {
-        position: relative;
-        background: white;
-        border-radius: $borderRadius;
-        overflow: hidden;
-        
-        &.plan-card-center {
-            margin: 0 1.25rem;
-            transform: scale(1.15);
-            z-index: 1;
-        }
-        
-        .plan-card-inner {
-            padding: 2rem;
-            border-right: 1px solid $grayBorder;
-            border-left: 1px solid $grayBorder;
-        }
+	.plan-card {
+		position: relative;
+		background: white;
+		border-radius: $borderRadius;
+		overflow: hidden;
+		width: 350px;
+		height: 100%;
+		
+		&.plan-card-center {
+			margin: 0 1.25rem;
+			transform: scale(1.15);
+			z-index: 1;
 
-        &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: .75rem;
-            background: $blue;
-        }
+			&:before,
+			&:after {
+				background: $blue;
+			}
+		}
+		
+		.plan-card-inner {
+			padding: 2rem;
+			border-right: 1px solid $grayBorder;
+			border-left: 1px solid $grayBorder;
+		}
 
-        &:after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: .75rem;
-            background: $blue;
-        }
-    }
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: .75rem;
+			background: $silver;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: .75rem;
+			background: $silver;
+		}
+	}
 }

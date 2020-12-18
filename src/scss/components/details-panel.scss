@@ -1,0 +1,25 @@
+#details-panel {
+	position: relative;
+	overflow: hidden;
+	border-radius: $borderRadius;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	max-width: 750px;
+
+	// Temp
+	margin: 6rem auto;
+
+	.details-header {
+		padding: 2rem;
+		background: $blue;
+		color: white;
+	}
+
+	.details-body {
+		padding: 2rem;
+		background: white;
+
+		.detail-item {
+			margin-bottom: 1rem;			
+		}
+	}
+}
