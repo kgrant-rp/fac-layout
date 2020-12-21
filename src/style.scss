@@ -10,9 +10,11 @@
 @import './scss/components/sales-banner.scss';
 @import './scss/components/details-panel.scss';
 @import './scss/components/progress-bar.scss';
+@import './scss/components/info-boxes.scss';
 
 // Partials
 @import './scss/mainheader.scss';
+@import './scss/partials/dealer-buttons.scss';
 
 * {
 	margin: 0;

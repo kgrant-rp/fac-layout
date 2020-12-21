@@ -1,0 +1,13 @@
+.dealer-button {
+    padding: .5rem 2rem;
+
+    .dealer-button-white {
+        background: white;
+        color: $blue;
+    }
+
+    .dealer-button-blue {
+        background: $blue;
+        color: white;
+    }
+}

@@ -1,23 +1,23 @@
 #progress-bar {
-    position: relative;
-    overflow: hidden;
-    border-radius: $borderRadius;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background: white;
+	position: relative;
+	overflow: hidden;
+	border-radius: $borderRadius;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	background: white;
 
-    // Temp
-    margin: 8rem auto 0;
+	// Temp
+	margin: 8rem auto 0;
 
-    .prog-button {
-        flex-basis: 8rem;
-        flex-grow: 1;
-        display: flex;
-        padding: .5rem;
-        margin: .25rem;
-        background: $silver;
+	.prog-button {
+		flex-basis: 8rem;
+		flex-grow: 1;
+		display: flex;
+		padding: .5rem;
+		margin: .25rem;
+		background: $silver;
 
-        &.active {
-            background: $green;
-        }
-    }
+		&.active {
+			background: $green;
+		}
+	}
 }

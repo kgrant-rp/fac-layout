@@ -17,7 +17,7 @@
 				<div class="col">
 					<div class="hero-caption">
 						<h1>MOPAR National eStore and Accessory Program Enrollment</h1>
-						<div class="app-button">View the Plans</div>
+						<div class="dealer-button">View the Plans</div>
 					</div>
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 									<p>a month</p>
 								</div>
 							</div>
-							<button class="app-button">Select Plan</button>
+							<button class="dealer-button">Select Plan</button>
 							<div class="append-options d-flex justify-content-between align-items-center">
 								<input type="checkbox" name="append-options-check" id="append-options-check">
 								<p>Add on In-Store Accressory Program</p>
@@ -99,7 +99,7 @@
 									<p>a month</p>
 								</div>
 							</div>
-							<button class="app-button">Select Plan</button>
+							<button class="dealer-button">Select Plan</button>
 							<div class="append-options d-flex justify-content-between align-items-center">
 								<input type="checkbox" name="append-options-check" id="append-options-check">
 								<p>Add on In-Store Accressory Program</p>
@@ -125,7 +125,7 @@
 									<p>a month</p>
 								</div>
 							</div>
-							<button class="app-button">Select Plan</button>
+							<button class="dealer-button">Select Plan</button>
 							<div class="append-options d-flex justify-content-between align-items-center">
 								<input type="checkbox" name="append-options-check" id="append-options-check">
 								<p>Add on In-Store Accressory Program</p>
@@ -203,29 +203,279 @@
 	</div>
 
 	<!-- CONTACT FORM -->
-	<div id="contact-form">
-		<h3>Contact Form</h3>
+	<div class=contact-forms-wrap>
+		<div class="container">
+			<div class="row">
+				<div class="col-10">
+					<!-- PARTIAL: Forms Header -->
+					<div class="forms-header">
+						<h1>MOPAR National eStore and Accessory Program Enrollment</h1>
+						<h2><strong>PLAN SELECTED:</strong>Mopar eStore and Cloud Accessorizer</h2>
+						<p>Please review and confirm or update the following information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-5">
+					<h4>Dealer Information</h4>
+					<form action="" id="dealer-info" class="dealer-form">
+						<ul>
+							<li class="d-flex flex-column">
+								<label for="dealer_code">Dealer Code:</label>
+								<input type="text" id="dealer_code" name="dealer_code">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="dealer_name">Dealer Name:</label>
+								<input type="text" id="dealer_name" name="dealer_name">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="dealer_address">Address:</label>
+								<input type="text" id="dealer_address" name="dealer_address">
+							</li>
+							<div class="field-split d-flex justify-content-between align-items-center">
+								<li class="d-flex flex-column">
+									<label for="dealer_city">City:</label>
+									<input type="text" id="dealer_city" name="dealer_city">
+								</li>
+								<li class="d-flex flex-column">
+									<label for="dealer_state">State:</label>
+									<input type="text" id="dealer_state" name="dealer_state">
+								</li>
+							</div>
+							<div class="field-split d-flex align-items-center">
+								<li class="d-flex flex-column">
+									<label for="dealer_zip">Zip:</label>
+									<input type="text" id="dealer_zip" name="dealer_zip">
+								</li>
+							</div>
+						</ul>
+					</form>
+				</div>
+				<div class="col-5">
+					<h4>Primary Contact</h4>
+					<form action="" id="primary-info" class="dealer-form">
+						<ul>
+							<li class="d-flex flex-column">
+								<label for="primary_first">First Name:</label>
+								<input type="text" id="primary_first" name="primary_first">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="primary_last">Last Name:</label>
+								<input type="text" id="primary_last" name="primary_last">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="primary_title">Title:</label>
+								<input type="text" id="primary_title" name="primary_title">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="primary_email">Email:</label>
+								<input type="email" name="primary_email" id="primary_email">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="primary_phone">Phone Number</label>
+								<input type="tel" name="primary_phone" id="primary_phone">
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- PARTIAL: Forms Footer -->
+		<div class="forms-footer d-flex justify-content-center align-items-center">
+			<button class="dealer-button dealer-button-white">Go Back</button>
+			<button class="dealer-button dealer-button-blue">Continue Enrollment</button>
+		</div>
 	</div>
 
-	<!-- BILLING-FORM -->
-	<div id="billing-form">
-		<h3>Billing Form</h3>
+
+	<!-- BILLING FORMS -->
+	<div class=contact-forms-wrap>
+		<div class="container">
+			<div class="row">
+				<div class="col-10">
+					<!-- PARTIAL: Forms Header -->
+					<div class="forms-header">
+						<h1>MOPAR National eStore and Accessory Program Enrollment</h1>
+						<h2><strong>PLAN SELECTED:</strong>Mopar eStore and Cloud Accessorizer</h2>
+						<p>Please provide the following information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-5">
+					<h4>General Manager Information</h4>
+					<form action="" id="gm-info" class="dealer-form">
+						<ul>
+							<li class="d-flex flex-column">
+								<label for="gm_first_name">First Name:</label>
+								<input type="text" id="gm_first_name" name="gm_first_name">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="gm_last_name">Last Name:</label>
+								<input type="text" id="gm_last_name" name="gm_last_name">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="title">Title:</label>
+								<input type="text" id="title" name="title">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="gm_phone">Phone Number</label>
+								<input type="tel" name="gm_phone" id="gm_phone">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="gm_email">Email:</label>
+								<input type="email" name="gm_email" id="gm_email">
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="col-5">
+					<h4>Billing Contact</h4>
+					<form action="" id="dealer-info" class="dealer-form">
+						<ul>
+							<li class="d-flex flex-column">
+								<label for="billing_first_name">First Name:</label>
+								<input type="text" id="billing_first_name" name="billing_first_name">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="billing_last_name">Last Name:</label>
+								<input type="text" id="billing_last_name" name="billing_last_name">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="title">Title:</label>
+								<input type="text" id="title" name="title">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="billing_title">Title:</label>
+								<input type="text" id="billing_title" name="billing_title">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="billing_email">Email:</label>
+								<input type="email" name="billing_email" id="billing_email">
+							</li>
+							<li class="d-flex flex-column">
+								<label for="billing_phone">Phone Number:</label>
+								<input type="tel" name="billing_phone" id="billing_phone">
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- PARTIAL: Forms Footer -->
+		<div class="forms-footer d-flex justify-content-center align-items-center">
+			<button class="dealer-button dealer-button-white">Go Back</button>
+			<button class="dealer-button dealer-button-blue">Continue Enrollment</button>
+		</div>
 	</div>
+
 
 	<!-- REVIEW INFO -->
 	<div class="review-info">
-		<h3>Review Info</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-10">
+					<!-- PARTIAL: Forms Header -->
+					<div class="forms-header">
+						<h1>MOPAR National eStore and Accessory Program Enrollment</h1>
+						<h2><strong>PLAN SELECTED:</strong>Mopar eStore and Cloud Accessorizer</h2>
+						<p>Please provide the following information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-10 d-flex flex-column">
+
+					<!-- Package Info Box -->
+					<div class="info-box" id="package-box">
+						<div class="info-box-header d-flex justify-content-between">
+							<div class="info-box-plan">
+								<p>Selected Plan:</p>
+								<h3>MOPAR National eStore and Cloud Accessorizer</h3>
+							</div>
+							<div class="info-box-price">
+								<span>USD $499</span>
+								<p>per month</p>
+							</div>
+						</div>
+						<div class="info-box-body d-flex justify-content-between">
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<a href="" class="edit-info-button">Select New Plan</a>
+					</div>
+
+					<!-- Dealer Info Box -->
+					<div class="info-box" id="package-box">
+						<div class="info-box-body d-flex justify-content-between">
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<a href="" class="edit-info-button">Edit Information</a>
+					</div>
+
+					<!-- Contact Info Box -->
+					<div class="info-box" id="package-box">
+						<div class="info-box-body d-flex justify-content-between">
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<div class="info-box-details">
+								<h4></h4>
+								<ul class="detail-list">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</div>
+						<a href="" class="edit-info-button">Edit Information</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<!-- PARTIAL: FORM HEADER -->
-	<div class="form-header">
-		<h3>PARTIAL: Form Header</h3>
-	</div>
 
-	<!-- PARTIAL: FORM BUTTONS -->
-	<div class="form-buttons">
-		<h3>PARTIAL: From Buttons</h3>
-	</div>
 
 	<!-- FOOTER -->
 	<footer>
